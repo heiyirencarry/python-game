@@ -22,6 +22,7 @@ class MainGame:
 
     # 游戏开始
     def startGame(self):
+		print('游戏开始')
         # 初始化游戏主窗口、设置窗口大小
         pygame.display.init()
         MainGame.window = pygame.display.set_mode([SCREEN_WIDTH, SCREEN_HEIGHT])
